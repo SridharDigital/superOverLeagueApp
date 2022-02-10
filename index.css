@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bg-container {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0f172a;
+}
+
+.main-heading {
+  font-size: 56px;
+  color: #f8fafc;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image {
+  width: 30%;
+}
+
+@media screen and (max-width: 767px) {
+  .main-heading {
+    font-size: 26px;
+  }
+}
